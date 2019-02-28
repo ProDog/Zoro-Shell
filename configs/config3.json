@@ -1,0 +1,24 @@
+﻿{
+  "ApplicationConfiguration": {
+    "Paths": {
+      "Chain": "Chain_{0}"
+    },
+    "P2P": {
+      "Port": 20003,
+      "WsPort": 20035
+    },
+    "RPC": {
+      "BindAddress": "127.0.0.1",
+      "Port": 20333,
+      "SslCert": "",
+      "SslCertPassword": ""
+    },
+    "UnlockWallet": {
+      "Path": "wallet3.json",
+      "Password": "123",
+      "StartConsensus": true,
+      "IsActive": true
+    },
+    "PluginURL": "https://github.com/ZoroChain/Zoro-Plugins/releases/download/v{1}/{0}.zip"
+  }
+}
